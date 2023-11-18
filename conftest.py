@@ -33,7 +33,7 @@ def setup_browser(request):
     options.add_argument('--enable-automation')
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--disable-setuid-sandbox')
-    options.add_argument('--headless')
+    # options.add_argument('--headless')
     options.browser_version = '100.0'
     selenoid_capability = {
         'browserName': 'chrome',
