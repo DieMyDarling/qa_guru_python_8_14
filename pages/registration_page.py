@@ -13,7 +13,7 @@ class RegistrationPage:
 
     def close_banner(self):
         with allure.step('Close banner'):
-            browser.execute_script('document.querySelector("#fixedban").remove()')
+            browser.driver.execute_script('document.querySelector("#fixedban").remove()')
         return self
 
     def fill_first_name(self, value):
