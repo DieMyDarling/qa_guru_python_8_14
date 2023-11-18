@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "qa_guru_7_10/resources/logo.jpg",
+    "project": "",
+    "environment": "prod",
+    "comment": "some comment @whoisondutytoday",
+    "reportLink": "",
+    "language": "ru",
+    "allureFolder": "allure-report",
+    "enableChart": "True"
+  },
+  "telegram": {
+    "token": "6812788167:AAF1qQDblKqY8IZ2LRdqgvvlQIA0foA6DMo",
+    "chat": "-1001972945479",
+    "replyTo": ""
+  }
+}
